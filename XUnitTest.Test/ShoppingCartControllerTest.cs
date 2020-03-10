@@ -22,6 +22,7 @@ namespace XUnitTest.Test
             _controller = new ShoppingCartController(_service);
         }
 
+        //Testing the Get Method
         [Fact]
         public void Get_WhenCalled_ReturnsOkResult()
         {
